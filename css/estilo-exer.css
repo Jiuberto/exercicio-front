@@ -9,20 +9,15 @@ p, h1, h2, h3, li, a, figcaption{
     color: white;
 }
 
-h1, h2, h3, li, a, figcaption, nav a{
+h1, h2, h3, a, figcaption, a{
     text-align: center;
     background-color: cadetblue;
     border-color: yellow;
 }
 
-nav a{
-    display: inline-block;
-    width: 100%;
-}
-
 .h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+    padding: 1%;
 }
 
 #container{
@@ -44,6 +39,8 @@ figure img{
 
 /*houver: ação ao passar o mause*/
 figure img:hover{
-    transform: scale(1) rotatey(360deg);
+    transform: scale(1);
     filter: grayscale(0);
 }
+
+a
