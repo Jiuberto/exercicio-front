@@ -50,6 +50,7 @@ h3, h2{
 h1 {
     font-size:50px;
     border: solid;
+    margin-bottom: none;
 }
 
 p a {
@@ -61,7 +62,3 @@ p a {
     
 }
 
-p {
-    background-color: brown;
-    margin: none;
-}
